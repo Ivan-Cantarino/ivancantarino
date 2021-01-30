@@ -88,8 +88,6 @@ p {
 	height: 230px;
 }
 
-.app {
-}
 
 .app:after {
 	content: "";
@@ -97,8 +95,6 @@ p {
 	clear: both;
 }
 
-.appbody {
-}
 
 a:link {
 	color: #4EA3D0;
