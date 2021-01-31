@@ -16,7 +16,7 @@
 <body>
   <div class='content'>
     <p>
-      <h1><span id="word"></h1>
+      <h1>Hello.</h1>
     </p>
     <p>
       <h2>
@@ -33,20 +33,6 @@
     </p>
   </div>
 </body>  
-
-<script>  	 
-$(function () { 
-    count = 0; 
-    wordsArray = ["Hello.", "Hola.", "Olá."];    
-    setInterval(function () { 
-      count++;        
-      $("#word").fadeOut(500, function () { 
-        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500); 
-      }); 
-    }, 2000); 
-  });
-</script>
-
 </html>
 
 

@@ -7,6 +7,7 @@ h1 {
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
 	line-height: 0.3;
+	width: 75%;
 }
 
 
@@ -86,7 +87,7 @@ p {
 
 .content {
 	max-width: 600px;
-	min-width: 200px;
+	min-width: 340px;
 	margin: auto;
 }
 
