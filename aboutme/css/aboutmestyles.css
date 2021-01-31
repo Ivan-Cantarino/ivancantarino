@@ -19,7 +19,7 @@ h2 {
 	font-weight: 500;
 }
 
-/* @media only screen and (hover: none) and (pointer: coarse){
+@media only screen and (hover: none) and (pointer: coarse){
 	h1 {
 		font-size: 80px;
 		font-style: normal;
@@ -30,7 +30,7 @@ h2 {
 		line-height: 0.3;
 		width: 100%;
 	}
-} */
+} 
 
 
 body,
