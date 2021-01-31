@@ -1,0 +1,181 @@
+
+h1 {
+	font-size: 200px;
+	font-style: normal;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 0.3;
+}
+
+
+
+h2 {
+	font-size: 1.3em;
+	font-style: normal;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;	
+	font-weight: 500;
+}
+
+body,
+html {
+	line-height: 1.38462;
+	font-weight: 400;
+	letter-spacing: -.005em;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;	
+	padding: 1em;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.navigationwrapper {
+	height: 60px;
+	line-height: 1.5;
+	max-width: 600px;
+	position: relative;
+}
+.navigation-left {
+	position: absolute;
+	right: auto;
+	left: 0px;
+}
+.navigation-right {
+	position: absolute;
+	left: auto;
+	right: 0px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.25;
+	font-weight: 700;
+	letter-spacing: .023em;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+h4 {
+	font-size: 18px;
+	color: #636366;
+	line-height: 1.22226;
+	font-weight: 400;
+	letter-spacing: .027em;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+hr {
+	border: 0.5px solid rgb(200,200,200);
+}
+
+p {
+	font-size: 14px;
+}
+
+.content {
+	max-width: 600px;
+	min-width: 340px;
+	margin: auto;
+}
+
+.left
+{
+	width: 230px;
+	float: left;
+	
+}
+
+.right
+{
+	width: 350px;
+	float: right;
+	padding-top: 10px;
+	
+}
+
+.appicon {
+	width: 230px;
+	height: 230px;
+}
+
+
+.app:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+a:link {
+	color: #4EA3D0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4EA3D0;
+	text-decoration: none;
+}
+
+a:hover {	
+	transition: color .5s;
+ 	color: #135a80;	
+}
+
+
+a:active {
+	color: #4EA3D0;
+	text-decoration: none;
+}
+
+.appbutton {
+	line-height: 3;
+	font-size: 13px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0070c9;
+	background: 0 0;
+	color: #0070c9;
+	border-radius: 4px;
+	padding: 8px;
+	display: inline;
+}
+
+.appbutton span {
+	font-weight: 500;
+}
+
+.appbutton:hover {
+	background: rgb(250,250,250);
+}
+
+.platforms {
+	line-height: 1.38462;
+	font-weight: 600;
+	letter-spacing: -.005em;
+	font-style: normal;
+	font-size: 13px;
+	display: inline-block;
+	list-style: none;
+	color: #409ad1;
+	margin: 8px;
+	padding: 0;
+	float:right;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.platforms li {
+	display: inline-block;
+	margin-right: 4px;
+}
