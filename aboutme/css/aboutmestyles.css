@@ -1,28 +1,28 @@
 
-	h1 {
-		font-size: 200px;
-		font-style: normal;
-		font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #1d1d1f;
-		-webkit-font-smoothing: antialiased;
-		text-align: center;
-		line-height: 0.3;
-		width: 100%;
-	}
+h1 {
+	font-size: 200px;
+	font-style: normal;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 0.3;
+	width: 100%;
+}
 
-	h2 {
-		font-size: 1.3em;
-		font-style: normal;
-		font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #1d1d1f;
-		-webkit-font-smoothing: antialiased;	
-		font-weight: 500;
-	}
+h2 {
+	font-size: 1.3em;
+	font-style: normal;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;	
+	font-weight: 500;
+}
 
 @media only screen and (hover: none) and (pointer: coarse){
 
 	h1 {
-		font-size: 1200px;
+		font-size: 12px;
 		font-style: normal;
 		font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #1d1d1f;
