@@ -34,13 +34,13 @@
   </div>
 </body>  
 
-<script>
-  //Replace Text function		 
+<script>  	 
 $(function () { 
     count = 0; 
     wordsArray = ["Hello.", "Bonjour.", "Hola.", "Olá."]; 
+
     setInterval(function () { 
-      count++; 
+      count++;        
       $("#word").fadeOut(500, function () { 
         $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500); 
       }); 
