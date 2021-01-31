@@ -8,6 +8,20 @@ html {
   font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+h1 {
+	font-size: 200px;
+	font-style: normal;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1d1d1f;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 0.3;
+	width: 100%;
+
+	
+}
+
 #main-outer {
 	display: table;
 	position: absolute;
