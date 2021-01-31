@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="css/aboutmestyles.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
   <style>
   </style>
 
@@ -15,7 +15,7 @@
 <body>
   <div class='content'>
     <p>
-      <h1>Hello.</h1>
+      <h1><span id="word">Hello.</span></h1>
     </p>
     <p>
       <h2>
@@ -32,6 +32,19 @@
     </p>
   </div>
 </body>  
+<script>
+  $(function () { 
+  count = 0; 
+  wordsArray = ["Hello.", "Hola.", "Olá.", "Bounjour."]; 
+  setInterval(function () { 
+    count++; 
+    $("#word").fadeOut(500, function () { 
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500); 
+    }); 
+  }, 2000); 
+});
+</script>
+
 </html>
 
 
