@@ -12,18 +12,41 @@ h1 {
 	
 }
 
-@media handheld {
-	h1 {
-		font-size: 150px;
-		font-style: normal;
-		font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #1d1d1f;
-		-webkit-font-smoothing: antialiased;
-		text-align: center;
-		line-height: 0.3;
-		width: 100%;
+@media only screen and (min-width: 300px) {
+	.main {
+	  font-size: 15px;
 	}
-}
+	.main h2 {
+	  font-size: 2em;
+	}
+  }
+  
+  @media only screen and (min-width: 400px) {
+	.main {
+	  font-size: 18px;
+	}
+	.main h2 {
+	  font-size: 2em;
+	}
+  }
+  
+  @media only screen and (min-width: 500px) {
+	.main {
+	  font-size: 20px;
+	}
+	.main h2 {
+	  font-size: 2em;
+	}
+  }
+  
+  @media only screen and (min-width: 900px) {
+	.main {
+	  font-size: 22px;
+	}
+	.main h2 {
+	  font-size: 2em;
+	}
+  }
 
 h2 {
 	font-size: 1.3em;
