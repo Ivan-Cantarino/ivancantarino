@@ -21,14 +21,7 @@ h2 {
 
 @media only screen and (hover: none) and (pointer: coarse){
 	h1 {
-		font-size: 80px;
-		font-style: normal;
-		font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #1d1d1f;
-		-webkit-font-smoothing: antialiased;
-		text-align: center;
-		line-height: 0.3;
-		width: 100%;
+		font-size: 80px;		
 	}
 } 
 
